@@ -24,8 +24,6 @@ module.exports = function(content, sourceMap) {
   var query = loaderUtils.parseQuery(this.query);
   getFileContents(query.prefix, function(prefix) {
     getFileContents(query.postfix, function(postfix) {
- 
-     console.log(query, prefix, postfix);
 
       // Prepare delimier
       var delimiter = typeof query.delimiter === 'string' ? query.delimiter : '';
