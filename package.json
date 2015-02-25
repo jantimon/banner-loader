@@ -1,6 +1,6 @@
 {
 	"name": "banner-loader",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Jan Nicklas",
 	"description": "banner loader module for webpack",
 	"dependencies": {
